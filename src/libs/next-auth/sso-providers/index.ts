@@ -3,5 +3,6 @@ import Authentik from './authentik';
 import AzureAD from './azure-ad';
 import Github from './github';
 import Zitadel from './zitadel';
+import Keycloak from './keycloak';
 
-export const ssoProviders = [Auth0, Authentik, AzureAD, Github, Zitadel];
+export const ssoProviders = [Auth0, Authentik, AzureAD, Github, Zitadel, Keycloak];
